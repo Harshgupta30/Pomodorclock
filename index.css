@@ -1,0 +1,134 @@
+body{
+    position: relative;
+    background-color: #e5a16b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 0rem;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: black;
+    width: 300px;
+    margin-top: 4rem;
+    min-height: 600px;
+    opacity: 0.75;
+    border-radius: 5px;
+}
+.container{
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #3e3e3d;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-width: 17rem;
+    margin-bottom: 22rem;
+    /* opacity: 1; */
+}
+
+.brk{
+    display: flex;
+    background-color: #eae9e5;
+    margin: 0.8rem;
+    min-width: 15rem;
+    min-height: 12.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #eb6841;
+    /* opacity: 1; */
+}
+
+.cen{
+    display: flex;
+    background-color: #eae9e5;
+    margin: 0.8rem;
+    min-width: 15rem;
+    min-height: 12.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #1b797f;
+    /* opacity: 1; */
+}
+.hed{
+    position: absolute;
+    /* z-index: 2; */
+    margin-top: 16rem;
+    color: #eae9e5;
+    /* margin-left: 2rem; */
+    /* align-items: center; */
+    text-align: center;
+    min-width: 15rem;
+    min-height: 20rem;
+    /* background-color:black; */
+}
+.h1{
+    border-bottom: 1px dotted white;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    min-height: 8rem;
+    padding-top: 1rem;
+    border-bottom: 1px dotted white;
+}
+.l{
+    /* display: flex; */
+    /* text-align: left; */
+    justify-content: center;
+}
+.r{
+    /* display: flex; */
+    /* text-align: right; */
+    padding-right: 0.5rem;
+    justify-content: center;
+}
+.b1{
+    display: flex;
+    justify-content: space-between;
+}
+#st{
+    /* text-decoration: ; */
+    display: flex;
+    color: #1b797f;
+}
+#bt{
+    display: flex;
+    color: #af583b;
+}
+.b{
+    background-color: #7c3f3f;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted white;
+}
+#start{
+    background-color: #7c3f3f;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+#reset{
+    background-color: #7c3f3f;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}

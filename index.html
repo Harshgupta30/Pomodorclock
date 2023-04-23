@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="cen" id="cen">
+                00:00
+            </div>
+        </div>
+        <div class="hed">
+            <div class="h1"><h1 id = "ses">Session 0</h1></div>
+            <div class="mid">
+                <div class="l">
+                    session time
+                    <h3 id="st"><p id = "p1">0</p><p>&nbsp min</p></h3>
+                    <div class="b1">
+                        <button class = "b" onclick="stinc()">+</button>
+                        <button class = "b" onclick="stdec()">-</button>
+                    </div>
+                </div>
+                <div class="r">
+                    break time
+                    <h3 id="bt"><p id = "p2">0</p><p>&nbsp min</p></h3>
+                    <div class="b1">
+                        <button class = "b" onclick="btinc()">+</button>
+                        <button class = "b" onclick="btdec()">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <button id="start" onclick="start()">Start</button>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
